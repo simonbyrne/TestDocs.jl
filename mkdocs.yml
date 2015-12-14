@@ -1,0 +1,11 @@
+site_name:           TestDocs.jl
+repo_url:            https://github.com/simonbyrne/TestDocs.jl
+site_description:    Test documentation package
+site_author:         Simon Byrne
+theme:               readthedocs
+markdown_extensions: [tables, fenced_code]
+pages:
+- Introduction: index.md
+- API:
+  - TestDocs: api/TestDocs.md
+  - Index: api/index.md
